@@ -33,14 +33,30 @@
 
 .footer {
   display: flex;
-  word-break: normal;
   gap: 15%;
-  padding: 1%;
+  padding: 500%;
   border-style: solid;
   border-width: 5px;
   border-color: black;
-}
-#linkedIn {
-  background-color: green;
-  text-decoration: none;
+  #github {
+    background-color: green;
+    padding: 0%;
+    margin: 0%;
+
+    /* margin-top: 0%;
+    margin-bottom: 0%; */
+  }
+  #linkedIn {
+    background-color: green;
+    text-decoration: none;
+    margin: 0%;
+  }
+  #contact-link {
+    background-color: green;
+  }
+  #copyright {
+    font-size: 25px;
+    color: purple;
+    margin: 0%;
+  }
 }

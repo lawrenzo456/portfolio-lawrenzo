@@ -1,13 +1,12 @@
 /* About me, hero, contact me, projects */
 .about-me {
-    display: flex;
-    border-style: dotted;
-    border-width: 5px;
-    border-color: black;
-    flex-direction: column;
-    color: green;
-  }
-  
+  display: flex;
+  border-style: dotted;
+  border-width: 5px;
+  border-color: black;
+  flex-direction: column;
+  color: green;
+}
 
 .hero {
   border-style: solid;
@@ -17,10 +16,18 @@
 
 .contact-me {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: 1%;
   border-style: solid;
   border-width: 5px;
   border-color: black;
 }
 
+.projects {
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
