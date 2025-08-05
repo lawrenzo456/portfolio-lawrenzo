@@ -3,7 +3,8 @@
 .header {
   display: flex;
   flex-direction: column;
-  #lawrenzoName, #welcome{
+  #lawrenzoName,
+  #welcome {
     display: flex;
     justify-content: center;
     color: red;
@@ -35,12 +36,15 @@
     }
   }
 }
-
 .ul:hover {
-  color: white;
+  /* can insert some design here to draw attention to the links */
+  /* background-color: purple; */
+}
+.nav-links a {
+  color: green;
 }
 a:hover {
-  color: green;
+  color: white;
 }
 .footer {
   display: flex;
