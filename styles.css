@@ -1,10 +1,13 @@
+/* About me, hero, contact me, projects */
 .about-me {
-  display: flex;
-  flex-direction: row;
-  border-style: solid;
-  border-width: 5px;
-  border-color: black;
-}
+    display: flex;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: black;
+    flex-direction: column;
+    color: green;
+  }
+  
 
 .hero {
   border-style: solid;
@@ -20,11 +23,4 @@
   border-width: 5px;
   border-color: black;
 }
-.footer {
-  display: flex;
-  gap: 15%;
-  padding: 1%;
-  border-style: solid;
-  border-width: 5px;
-  border-color: black;
-}
+

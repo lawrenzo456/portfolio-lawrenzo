@@ -1,3 +1,5 @@
+/* header, body, nav links, footer, list properties  */
+
 .header {
   display: flex;
   flex-direction: column;
@@ -8,31 +10,37 @@
 .body {
   background-color: pink;
 }
-.about-me {
-  display: flex;
-  flex-direction: column;
-  color: green;
-}
+
 .nav {
   .nav-links {
     color: purple;
     /* flex-direction: row; */
+    border-style: solid;
+    border-color: blue;
+    margin: 3%;
+    .ul {
+      display: flex;
+      /* justify-content: space-evenly; */
+      gap: 20%;
+      .flex-item {
+        /* width: 100%; */
+        flex-wrap: wrap;
+        flex-basis: auto;
+      }
+    }
   }
 }
-.ul {
-  display: flex;
-  justify-content: space-evenly;
-  gap: 20%;
-  .flex-item {
-    /* width: 100%; */
-    flex-wrap: wrap;
-    flex-basis: auto;
-  }
 
-  /* width: calc(25% -50px); */
+.footer {
+  display: flex;
+  word-break: normal;
+  gap: 15%;
+  padding: 1%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
 }
-
-.nav-links {
-  display: flex;
-  flex-direction: row;
+#linkedIn {
+  background-color: green;
+  text-decoration: none;
 }
