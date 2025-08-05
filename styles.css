@@ -13,6 +13,7 @@
   border-width: 5px;
   border-color: black;
 }
+
 .contact-me {
   display: flex;
   flex-direction: column;
@@ -22,8 +23,11 @@
   border-style: solid;
   border-width: 5px;
   border-color: black;
-  flex-wrap: nowrap;
-  cursor: arrow;
+  flex: 0 0 auto;
+  input:focus {
+    background-color: lightblue;
+    color: blue;
+  }
 
   #contact-submit {
     align-items: center;
@@ -36,7 +40,12 @@
   background-color: blue;
   color: white;
   justify-content: center;
+  cursor: pointer;
 }
 #submit:hover {
   background-color: red;
 }
+
+/* .submitBtn:hover {
+  cursor: pointer;
+} */

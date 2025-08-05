@@ -24,10 +24,19 @@
       /* justify-content: space-evenly; */
       /* gap: 20%; */
       justify-content: space-evenly;
+      a {
+        text-decoration: none;
+      }
     }
   }
 }
 
+.ul:hover {
+  color: teal;
+}
+a:hover {
+  color: teal;
+}
 .footer {
   display: flex;
   /* gap: 15%; */
