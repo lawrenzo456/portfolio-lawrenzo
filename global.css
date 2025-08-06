@@ -13,25 +13,36 @@
   border-width: 5px;
   border-color: black;
 }
-.body {
-  background-color: pink;
-  margin: 10%;
-}
 
 .nav {
+  display: flex;
+  border-style: solid;
+  border-color: blue;
+  /* color: purple; */
+  justify-content: space-evenly;
+
   .nav-links {
-    color: purple;
+    display: flex;
     /* flex-direction: row; */
-    border-style: solid;
-    border-color: blue;
-    margin: 3%;
+
+    /* margin: 10%; */
+
     .ul {
       display: flex;
       /* justify-content: space-evenly; */
       /* gap: 20%; */
-      justify-content: space-evenly;
+      list-style-type: none;
+      padding: 5%;
       a {
+        display: flex;
+        white-space: nowrap;
+        align-items: center;
         text-decoration: none;
+        border-style: dotted;
+        margin: 2%;
+        padding: 5%;
+        flex-wrap: nowrap;
+        width: 100%;
       }
     }
   }
@@ -43,9 +54,18 @@
 .nav-links a {
   color: green;
 }
-a:hover {
-  color: white;
+
+.hero {
+  display: flex;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  justify-content: center;
+  .center-align {
+    text-align: center;
+  }
 }
+
 .footer {
   display: flex;
   /* gap: 15%; */
@@ -76,26 +96,5 @@ a:hover {
     border-style: solid;
     border-width: 3px;
     border-color: black;
-  }
-}
-
-/* Responsive Design */
-/* mobile phone */
-@media screen and (max-width: 449px) and (min-width: 100px) {
-  .body {
-    /* background-color: aqua; */
-  }
-}
-/* tablet  */
-@media screen and (min-width: 450px) and (max-width: 1030px) {
-  .body {
-    /* background-color: wheat; */
-  }
-}
-
-/* laptop  */
-@media screen and (min-width: 1031px) {
-  .body {
-    /* background-color: yellowgreen; */
   }
 }

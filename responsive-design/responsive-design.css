@@ -1,0 +1,20 @@
+/* Responsive Design */
+/* mobile phone */
+@media screen and (max-width: 449px) and (min-width: 100px) {
+  .body {
+    /* background-color: aqua; */
+  }
+}
+/* tablet  */
+@media screen and (min-width: 450px) and (max-width: 1030px) {
+  .body {
+    /* background-color: wheat; */
+  }
+}
+
+/* laptop  */
+@media screen and (min-width: 1031px) {
+  .body {
+    /* background-color: yellowgreen; */
+  }
+}

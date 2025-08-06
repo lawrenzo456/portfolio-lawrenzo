@@ -1,0 +1,19 @@
+.about-me {
+  display: flex;
+  border-style: dotted;
+  border-width: 5px;
+  border-color: black;
+  flex-direction: column;
+  .section-header {
+    display: flex;
+    justify-content: center;
+  }
+  p {
+    display: flex;
+    justify-content: center;
+  }
+  color: green;
+  .center-align {
+    text-align: center;
+  }
+}
