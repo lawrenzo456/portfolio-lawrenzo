@@ -1,7 +1,7 @@
 .about-me {
   display: flex;
   border-style: dotted;
-  margin: 5% 5% 2.5% 2.5%;
+  margin: 5% 2.5% 5% 2.5%;
   align-items: center;
   border-width: 5px;
   border-color: black;
