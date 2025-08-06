@@ -1,6 +1,8 @@
 .projects {
   display: flex;
   justify-content: center;
+  margin: 5% 5% 2.5% 2.5%;
+  align-items: center;
   /* align-items: flex-start; */
   flex-wrap: wrap;
   border-style: solid;
@@ -30,9 +32,11 @@
     display: flex;
     border-style: dotted;
     flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
     flex-wrap: nowrap;
     width: 33% em;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     /* margin: 5%, 5%, 5%, 5%; */
 
     a {
