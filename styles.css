@@ -1,11 +1,37 @@
-
 .body {
   background-color: pink;
-  margin: 10%;
+  margin: 5%;
 }
-
 
 a:hover {
   color: white;
 }
 
+.header,
+.nav,
+.hero,
+.about-me,
+.projects,
+.contact-me,
+.footer {
+  /* padding: 10%; */
+  display: flex;
+  /* align-items: flex-start; */
+  /* flex-direction: column; */
+  /* justify-content: flex-end; */
+  align-items: center;
+  /* margin-bottom: 5%; */
+  /* margin-top: 5%;  */
+  /* width: 95%;  */
+  margin: 5% 0% 2.5% 2.5%;
+}
+
+/* padding: 10%; */
+/* display: flex; */
+/* align-items: flex-start; */
+/* flex-direction: column; */
+/* justify-content: flex-end; */
+/* align-items: center; */
+/* margin-bottom: 5%; */
+/* margin-top: 5%;  */
+/* width: 95%; */

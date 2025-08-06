@@ -3,27 +3,44 @@
 .header {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  /* justify-content: center; */
+  /* align-items: center; */
   #lawrenzoName,
   #welcome {
     display: flex;
     justify-content: center;
+    padding: 5%;
     color: red;
+    border-style: solid;
+    width: 50%;
   }
-  border-style: solid;
+  .profile-pic {
+    justify-content: center;
+  }
+  border-style: dashed;
   border-width: 5px;
   border-color: black;
+  .nav {
+    border-style: solid;
+    color: blue;
+    width: 95%;
+    height: 100%;
+    /* justify-content: center; */
+    /* align-items: center;  */
+    /* margin: 5%, 5%, 5%, 5%; */
+  }
 }
 
 .nav {
   display: flex;
-  border-style: solid;
-  border-color: blue;
   /* color: purple; */
-  justify-content: space-evenly;
+  justify-content: center;
 
   .nav-links {
     display: flex;
     /* flex-direction: row; */
+    /* justify-content: center; */
 
     /* margin: 10%; */
 
@@ -37,12 +54,13 @@
         display: flex;
         white-space: nowrap;
         align-items: center;
+        justify-content: center;
         text-decoration: none;
         border-style: dotted;
         margin: 2%;
-        padding: 5%;
+        /* padding: 5%; */
         flex-wrap: nowrap;
-        width: 100%;
+        width: 105%;
       }
     }
   }
