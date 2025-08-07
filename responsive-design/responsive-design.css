@@ -4,16 +4,27 @@
   .body {
     /* background-color: aqua; */
   }
+  .nav .nav-links .ul {
+    flex-direction: column;
+    background-color: brown;
+    a {
+      background-color:red;
+      padding: 10%;
+
+    }
+
+
+}
 }
 /* tablet  */
-@media screen and (min-width: 450px) and (max-width: 1030px) {
+@media screen and (min-width: 450px) and (max-width: 1023px) {
   .body {
     /* background-color: wheat; */
   }
 }
 
 /* laptop  */
-@media screen and (min-width: 1031px) {
+@media screen and (min-width: 1024px) {
   .body {
     /* background-color: yellowgreen; */
   }

@@ -38,7 +38,8 @@
   /* margin:0%; */
   border: 0%;
   padding: 0%;
-  width: 95%;
+  height: calc(10em);
+
   /* justify-content: center; */
   /* align-items: center;  */
 
@@ -48,8 +49,10 @@
     background-color: white;
     justify-content: space-around;
     align-items: center;
+    width: 90%;
+    height: 90%;
     /* white box  */
-    /* margin: 5%; */
+    margin: 0%;
     /* min-height: 200px; */
     border: 0%;
     padding: 0%;
@@ -57,7 +60,7 @@
     /* height:50%; */
     .ul {
       display: flex;
-      flex-direction: column;
+      /* flex-direction: column; */
       /* ADJUSTING FOR TESTING, ^ MOVES THE THREE HEADER ELEMENTS*/
       list-style-type: none;
       background-color: blue;
@@ -65,26 +68,23 @@
       margin-block-start: 0;
       margin-block-end: 0;
       padding-inline-start: 0;
-      margin: 5% 2.5% 5% 2.5%;
-
+      /* margin: 5% 2.5% 5% 2.5%; */
+      width: 90%;
+      height: 90%;
       /* margin: 50%; */
       border: 0%;
       padding: 0%;
-      /* li { */
+
       /* margin: 5% 5% 2.5% 2.5%; */
-      /* justify-content: space-evenly; */
-      /* justify-content: center; */
+
       align-items: center;
       /* flex-wrap:wrap; */
 
       a {
-        /* display: flex; */
         white-space: nowrap;
         background-color: green;
         align-items: center;
         justify-content: center;
-        /* white-space-collapse: 0; */
-        /* align-items: center; */
         /* justify-content: space-evenly; */
         list-style-type: none;
         margin: 0%;
@@ -95,9 +95,8 @@
         /* margin: 2%; */
         /* padding: 5%; */
         flex-wrap: nowrap;
-        /* height:%; */
-        width: 90%;
-        height: 90%;
+        /* width: 50%; */
+        /* height: 90%; */
       }
     }
   }
