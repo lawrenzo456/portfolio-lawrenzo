@@ -1,11 +1,15 @@
 .about-me {
   display: flex;
-  border-style: dotted;
+  border-style: dashed;
+  border-radius: 15px;
+
   margin: 5% 2.5% 5% 2.5%;
   align-items: center;
   border-width: 5px;
   border-color: black;
   flex-direction: column;
+  background: radial-gradient(#d9c3d7, #afdbf5);
+
   .section-header {
     display: flex;
     justify-content: center;

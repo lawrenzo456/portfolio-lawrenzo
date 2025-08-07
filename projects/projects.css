@@ -5,44 +5,61 @@
   align-items: center;
   /* align-items: flex-start; */
   flex-wrap: wrap;
-  border-style: solid;
+  border-style: dashed;
   border-width: 5px;
-  border-color: black;
+  border-color: #2c2d2d;
+  background: radial-gradient(#d9c3d7, #afdbf5);
+  border-radius: 15px;
+
   .project-desc {
     /* margin: 5% 2.5% 5% 2.5%; */
+    display: flex;
     align-items: center;
     justify-content: center;
   }
   #projectTitle {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    background: radial-gradient(#afdbf5, #ffb7c5);
+    border-radius: 15px;
+
     /* flex-direction: column; */
-    justify-content: space-around;
+    justify-content: center;
     margin-bottom: 5%;
     margin-top: 5%;
     width: 95%;
     height: 30%;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
     border-style: solid;
-    border-color: black;
+    border-color: #2c2d2d;
   }
+  /* article {
+    display: flex;
+  } */
   #project1,
   #project2,
   #project3 {
     display: flex;
     border-style: dotted;
+    border-radius: 30px;
+    margin: 5%;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
-    width: 33% em;
+    /* flex-wrap: nowrap; */
+    width: 80%;
     /* justify-content: space-around; */
     /* margin: 5%, 5%, 5%, 5%; */
-
+    /* .article {
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    } */
     a {
       display: flex;
       text-decoration: none;
       justify-content: center;
+      align-items: center;
     }
     p {
       display: flex;
@@ -50,8 +67,11 @@
       flex-wrap: wrap;
       color: purple;
       border-style: dashed;
-      border-color: green;
+      border-color: #2c2d2d;
       justify-content: center;
+      border-radius: 10px;
+
+      align-items: center;
       text-align: center;
       height: 75%;
       width: 95%;
@@ -60,6 +80,22 @@
 }
 
 #project1 {
+  display: flex;
   background-color: bisque;
+  /* width: 90%; */
+  justify-content: center;
+  align-items: center;
   /*project 1 give it a class*/
+}
+#project2 {
+  display: flex;
+  background-color: #d7ffab;
+  justify-content: center;
+  align-items: center;
+}
+#project3 {
+  display: flex;
+  background-color: #d7ffab;
+  justify-content: center;
+  align-items: center;
 }
