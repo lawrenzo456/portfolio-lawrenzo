@@ -4,6 +4,7 @@
   background-color: pink;
   /* margin: 5%; */
   max-width: 100%;
+  font-size: 18px;
   /* margin: 0; */
   padding: 0;
   /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; */
@@ -16,6 +17,7 @@
 }
 .html {
   max-width: 90%;
+  font-size: 18px;
 }
 
 a:hover {

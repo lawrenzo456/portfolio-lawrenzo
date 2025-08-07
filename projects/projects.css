@@ -22,7 +22,7 @@
     align-items: center;
     background: radial-gradient(#afdbf5, #ffb7c5);
     border-radius: 15px;
-
+    color: #2c2d2d;
     /* flex-direction: column; */
     justify-content: center;
     margin-bottom: 5%;
@@ -42,7 +42,7 @@
     display: flex;
     border-style: dotted;
     border-radius: 30px;
-    margin: 5%;
+    margin: 10%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -60,12 +60,13 @@
       text-decoration: none;
       justify-content: center;
       align-items: center;
+      color: #2c2d2d;
     }
     p {
       display: flex;
       /* margin: auto; */
       flex-wrap: wrap;
-      color: purple;
+      color: #2c2d2d;
       border-style: dashed;
       border-color: #2c2d2d;
       justify-content: center;

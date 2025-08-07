@@ -6,7 +6,7 @@
   margin: 5% 2.5% 5% 2.5%;
   align-items: center;
   border-width: 5px;
-  border-color: black;
+  border-color: #2c2d2d;
   flex-direction: column;
   background: radial-gradient(#d9c3d7, #afdbf5);
 
@@ -17,8 +17,9 @@
   p {
     display: flex;
     justify-content: center;
+    margin-bottom: 5%;
   }
-  color: green;
+  color: #2c2d2d;
   .center-align {
     text-align: center;
   }
