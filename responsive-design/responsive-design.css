@@ -4,12 +4,21 @@
   .body {
     /* background-color: aqua; */
   }
+  .nav,
+  .nav-links,
+  .ul {
+    margin: 0%;
+    padding: 0%;
+  }
   .nav .nav-links .ul {
     flex-direction: column;
-    background-color: brown;
+    /* background-color: brown; */
+
     a {
-      background-color: red;
-      padding: 10%;
+      background: linear-gradient(45deg, #ffb7c5, #d7ffab);
+      /* padding: 10%; */
+      margin: 0%;
+      padding: 0%;
       justify-content: center;
       align-items: center;
     }
