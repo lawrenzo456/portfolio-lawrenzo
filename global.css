@@ -13,10 +13,18 @@
     padding: 5%;
     color: red;
     border-style: solid;
-    width: 50%;
+    width: 70%;
   }
   .profile-pic {
+    display: flex;
     justify-content: center;
+
+    img {
+      border-radius: 50px;
+      /* justify-content: center; */
+      max-width: 50%;
+      max-height: 50%;
+    }
   }
   border-style: dashed;
   border-width: 5px;
@@ -146,7 +154,15 @@
   justify-content: space-evenly;
   #github {
     background-color: green;
-
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    img {
+      padding:0;
+      margin:0;
+      max-width: 20%;
+      max-width: 10%;
+    }
     /* margin-top: 0%;
     margin-bottom: 0%; */
   }
@@ -156,6 +172,10 @@
   }
   #contact-link {
     background-color: green;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
   }
   #copyright {
     display: flex;

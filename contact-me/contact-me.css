@@ -17,7 +17,7 @@
     justify-content: space-around;
     margin-bottom: 5%;
     margin-top: 5%;
-    width: 95%;
+    width: 80%;
     /* height: 100%; */
     flex-wrap: nowrap;
     border-style: solid;
@@ -26,25 +26,39 @@
   input:focus {
     background-color: lightblue;
     color: blue;
+    /* I don't understand why commenting out the margin bricks the form  */
+    height: 50%;
+    margin: 2%;
   }
+
   form {
     display: flex;
     flex-wrap: nowrap;
     border-style: dashed;
     border-color: brown;
     margin-bottom: 5%;
+    /* HEIGHT AND WIDTH NOT WORKING IN PERCENTAGES, TRY TO ADJUST  
+    EM works*/
+    /* SET ORIGINAL HEIGHT AND WEIGHT AND THEN ADJUST IN MEDIA QUERIES  */
+    /* REALIGN THINGS cause header links are not centered anymore; */
+    height: 30em;
+    width: 30em;
     label,
     input {
       display: flex;
       border-style: solid;
       border-color: green;
+      /* height: 2px; */
+      height: 20em;
     }
   }
 
   #contact-submit {
+    display: flex;
     align-items: center;
     flex-direction: column;
     padding: 2%;
+    margin: 5%;
   }
   #submit {
     display: flex;
@@ -52,7 +66,7 @@
     color: white;
     justify-content: center;
     cursor: pointer;
-    margin: 5% 5% 10% 10%;
+    margin: 5%;
     padding: 5%;
   }
   #submit:hover {
