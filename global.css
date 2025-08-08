@@ -182,7 +182,7 @@
   border-width: 5px;
   border-color: #2c2d2d;
   background: radial-gradient(#d9c3d7, #afdbf5);
-
+  /* background-image: url(assets/acadia4.jpeg); */
   justify-content: center;
   .center-align {
     text-align: center;

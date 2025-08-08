@@ -15,14 +15,15 @@
   border-color: black;
   flex: 0 0 auto;
 
-  #contactMeTitle {
+  #contactMeTitle,
+  #contactMeBlurb {
     display: flex;
     /* align-items: center; */
     background: radial-gradient(#afdbf5, #ffb7c5);
     border-radius: 15px;
-
+text-align: center;
     justify-content: center;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
     margin-top: 5%;
     /* margin-left: 10%; */
     width: 95%;
@@ -32,6 +33,7 @@
     border-style: solid;
     border-color: #2c2d2d;
   }
+
 
   input:focus {
     background-color: #afdbf5;
