@@ -20,8 +20,10 @@
     display: flex;
     /* align-items: center; */
     background: radial-gradient(#afdbf5, #ffb7c5);
+    /* background-image: url(assets/acadia4.jpeg); */
+
     border-radius: 15px;
-text-align: center;
+    text-align: center;
     justify-content: center;
     /* margin-bottom: 5%; */
     margin-top: 5%;
@@ -33,7 +35,6 @@ text-align: center;
     border-style: solid;
     border-color: #2c2d2d;
   }
-
 
   input:focus {
     background-color: #afdbf5;
