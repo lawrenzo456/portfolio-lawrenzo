@@ -1,145 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- all page styles  -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <!-- Global containing header and footer -->
+    <link rel="stylesheet" type="text/css" href="global.css" />
+    <!-- projects -->
+    <link rel="stylesheet" type="text/css" href="projects/projects.css" />
+    <!-- about me css  -->
+    <link rel="stylesheet" type="text/css" href="about-me/about-me.css" />
+    <!-- contact me  -->
+    <link rel="stylesheet" type="text/css" href="contact-me/contact-me.css" />
+    <!-- responsive design  -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="responsive-design/responsive-design.css"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <!-- all page styles  -->
-  <link rel="stylesheet" type="text/css" href="styles.css" />
-  <!-- Global containing header and footer -->
-  <link rel="stylesheet" type="text/css" href="global.css" />
-  <!-- projects -->
-  <link rel="stylesheet" type="text/css" href="projects/projects.css" />
-  <!-- about me css  -->
-  <link rel="stylesheet" type="text/css" href="about-me/about-me.css" />
-  <!-- contact me  -->
-  <link rel="stylesheet" type="text/css" href="contact-me/contact-me.css" />
-  <!-- responsive design  -->
-  <link rel="stylesheet" type="text/css" href="responsive-design/responsive-design.css" />
+    <script src="app.js"></script>
+  </head>
 
-  <script src="app.js"></script>
-</head>
-
-<body class="body">
-  <section class="nav">
-    <nav class="nav-links">
-      <ul class="ul">
-        <li><a href="#about-me">About Me</a></li>
-        <li><a href="#projectsID">Projects</a></li>
-        <li><a href="#contact-me">Contact Me</a></li>
-      </ul>
-    </nav>
-  </section>
-  <section class="header">
-    <!-- class="main-nav" -->
-    <h1 id="lawrenzoName">Lawrenzo Lue</h1>
-
-    <section class="profile-pic">
-      <img src="assets/lawrenzo-hiking.jpeg" alt="Lawrenzo hiking in Acadia"/>
+  <body class="body">
+    <section class="nav">
+      <nav class="nav-links">
+        <ul class="ul">
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#projectsID">Projects</a></li>
+          <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+      </nav>
     </section>
-    <h3 id="welcome">Welcome! I’m Lawrenzo.</h3>
+    <section class="header">
+      <!-- class="main-nav" -->
+      <h1 id="lawrenzoName">Lawrenzo Lue</h1>
 
-    <!-- /header -->
-  </section>
+      <section class="profile-pic">
+        <img
+          src="assets/lawrenzo-hiking.jpeg"
+          alt="Lawrenzo hiking in Acadia"
+        />
+      </section>
+      <h3 id="welcome">Welcome! I’m Lawrenzo.</h3>
 
-  <section class="hero">
-    <h6 class="hero-text">This is my hero section! yippee.</h6>
-    <img class="hero-image" src="assets/acadia5.jpeg" alt="acadia flowers">
-    <div class="hero-gif-1"></div>
-  </section>
-
-  <section class="about-me">
-    <a id="about-me"></a>
-    <h4 class="section-header">About Me</h4>
-    <p class="center-align">
-      Welcome! I’m Lawrenzo and I’m a curious NYC-based [SOMETHING-fullstack? Backend? Who knows]] developer with the goal to continuously be learning. I have over 8 years in the nonprofit industry and have brought those data & program management skills as well as my empathy and passion to the tech industry.
-
-      <!-- <section class="subsectionKish kish said he's adding subsections like core values "></section> -->
-    </p>
-    <!-- /about-me -->
-  </section>
-
-  <section class="projects">
-    <a id="projectsID"></a>
-    <div id="projectTitle">
-      <h2>Projects</h2>
-    </div>
-    <!-- <section class="project-container"></section> -->
-    <div class="project1desc">
-      <article id="project1">
-        <h3><a href="https://github.com/lawrenzo456/fcny-unit-5-text-adventure" target="_blank">Text Adventure</a></h3>
-        <p>Check out this text adventure game, developed with Kevin Ortiz for Futurecode.  Our goal was to build a text based adventure game that started off innocuously, then progressed to more intense scenes, peaking at an apocalyptic scenario. The code utilizes a series of arrays inside of an object to efficiently pull statements based on player decisions.
-
-        </p>
-      </article>
-    </div>
-    <div class="project2desc">
-
-      <article id="project2">
-        <a href="" target="_blank">
-          <h3>Tech Talk</h3>
-        </a>
-        <p>In this Tech Talk, I presented about [TOPIC], exploring how [SOMETHING SOMETHING] and [SOMETHING SOMETHING]. After this presentation, I used the newly acquired knowledge to [SOMETHING].
-        </p>
-      </article>
-    </div>
-    <div class="project3desc">
-
-      <article id="project3">
-        <a href="" target="_blank">
-          <h3>Placeholder</h3>
-        </a>
-        <p>[This is a placeholder for future projects:] In this project, I [SOMETHING] with the goal of [SOMETHING]. This code involves [SOMETHING] and [SOMETHING] to [SOMETHING].
-        </p>
-      </article>
-    </div>
-  </section>
-
-  <section class="contact-me">
-    <a id="contact-me"></a>
-    <div id="contactMeTitle">
-      <h2><strong>Let's Get in Touch!</strong></h2>
-    </div>
-    <div id="contactMeBlurb">
-      <h3>Interested in what you’ve seen? Are you looking to bring me onto your team? Want to reach out to chat? Don’t hesitate to contact me by completing the form below! I look forward to speaking with you about how we can use technology to strengthen our communities.
-      </h3>
-    </div>
-
-    <form id="contact-submit">
-      <label for="name"> Name </label>
-      <input type="text" id="name" name="name" placeholder="First & Last Name" required autocomplete="off" />
-      <label for="email">Your Email </label>
-      <input type="email" id="email" name="email" placeholder="Email" required autocomplete="off" />
-      <label for="message"> Message </label>
-      <input type="text" id="message" name="message" placeholder="Enter your inquiry here!" required
-        autocomplete="off" />
-      <button class="submitBtn" type="submit" id="submit">Submit!</button>
-  </section>
-
-  <section class="footer">
-    <section id="copyright">
-      <h6 id="copyright" class="h6">
-        Copyright &copy; <time datetime=" 2025 "> 2025 [Jk, none yet]</time>
-      </h6>
+      <!-- /header -->
     </section>
 
-    <p id="github">
-      <!-- alt="Github logo pulled from Github's website's approved logos page: https://github.com/logos"/>  -->
-      <a href="https://github.com/lawrenzo456" target="_blank"> Github<img class="img-link" src="" ></a>
-    </p>
+    <section class="hero">
+      <h6 class="hero-text">This is my hero section! yippee.</h6>
+      <img class="hero-image" src="assets/acadia5.jpeg" alt="acadia flowers" />
+      <div class="hero-gif-1"></div>
+    </section>
 
-    <p id="linkedIn">
-      <a href="https://www.linkedin.com/in/lawrenzo-lue" target="_blank">LinkedIn <img class="img-link" src="" /></a>
-    </p>
+    <section class="about-me">
+      <a id="about-me"></a>
+      <h4 class="section-header">About Me</h4>
+      <p class="center-align">
+        Welcome! I’m Lawrenzo and I’m a curious NYC-based [SOMETHING-fullstack?
+        Backend? Who knows]] developer with the goal to continuously be
+        learning. I have over 8 years in the nonprofit industry and have brought
+        those data & program management skills as well as my empathy and passion
+        to the tech industry.
 
-    <p id="contact-link">
-      <a href="#contact-subject" target="_blank">Contact Me <img class="img-link"  src="" /> </a>
-    </p>
-    <!-- footer -->
-  </section>
-</body>
+        <!-- <section class="subsectionKish kish said he's adding subsections like core values "></section> -->
+      </p>
+      <!-- /about-me -->
+    </section>
 
+    <section class="projects">
+      <a id="projectsID"></a>
+      <div id="projectTitle">
+        <h2>Projects</h2>
+      </div>
+      <!-- <section class="project-container"></section> -->
+      <div class="project1desc">
+        <article id="project1">
+          <h3>
+            <a
+              href="https://github.com/lawrenzo456/fcny-unit-5-text-adventure"
+              target="_blank"
+              >Text Adventure</a
+            >
+          </h3>
+          <p>
+            Check out this text adventure game, developed with Kevin Ortiz for
+            Futurecode. Our goal was to build a text based adventure game that
+            started off innocuously, then progressed to more intense scenes,
+            peaking at an apocalyptic scenario. The code utilizes a series of
+            arrays inside of an object to efficiently pull statements based on
+            player decisions.
+          </p>
+        </article>
+      </div>
+      <div class="project2desc">
+        <article id="project2">
+          <a
+            href="https://github.com/lawrenzo456/fcny-build-with-code"
+            target="_blank"
+          >
+            <h3>Single Player Futurecode Feud [Family Feud Project]</h3>
+          </a>
+          <p>
+            In this project, I collaborated with Laynie Buten, Haroon Salimi,
+            and Rene Ledesma to create a single-player, Family Feud like game in
+            order to provide people with an variable alternative to Solitaire.
+            This game is browser based and will prompt the user to answer a
+            series of questions. Then, the game will compare the guess to the
+            answers and assign a respective score that will carry over through
+            rounds. If the player reaches a certain threshold of points by the
+            end of the third round, they will enter a "fast money" round.
+            Finally, they will be prompted whether they would like to replay the
+            game.
+          </p>
+        </article>
+      </div>
+      <div class="project3desc">
+        <article id="project3">
+          <a
+            href="https://github.com/lawrenzo456/FC-hackathon-chrome-extension/tree/main"
+            target="_blank"
+          >
+            <h3>Tech Talk</h3>
+          </a>
+          <!-- <p>In this Tech Talk, I presented about [TOPIC], exploring how [SOMETHING SOMETHING] and [SOMETHING SOMETHING]. After this presentation, I used the newly acquired knowledge to [SOMETHING]. </p> -->
+          <p>
+            I created this Chrome extension in partnership with Stormi ___ as
+            part of Future Code 2's Fall Hackathon. The initial goal of this
+            extension was to create a research focused tool that allows people
+            to get information about something they're curious about while
+            perusing the internet without needing to open another tab. However,
+            due to API constraints, we reduced the scope of the program to
+            instead be able to search a nutrition API for various ingredients.
+            Users who are interested in accessing various food information,
+            including sugars, proteins, and carbohydrates, are able to do so
+            without leaving a recipe page, for example. This code involves DOM
+            manipulation by using Javascript to create and call various events,
+            which then will send the user input to the nutrition server with an
+            API call. Then, the nutritional information from that server will be
+            printed to the extension.
+          </p>
+        </article>
+      </div>
+      <div class="project4desc">
+        <article id="project4">
+          <a href="" target="_blank">
+            <h3>Tech Talk</h3>
+          </a>
+          <!-- <p>In this Tech Talk, I presented about [TOPIC], exploring how [SOMETHING SOMETHING] and [SOMETHING SOMETHING]. After this presentation, I used the newly acquired knowledge to [SOMETHING]. </p> -->
+          <p>
+            [This is a placeholder for future projects:] In this project, I
+            [SOMETHING] with the goal of [SOMETHING]. This code involves
+            [SOMETHING] and [SOMETHING] to [SOMETHING].
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-me">
+      <a id="contact-me"></a>
+      <div id="contactMeTitle">
+        <h2><strong>Let's Get in Touch!</strong></h2>
+      </div>
+      <div id="contactMeBlurb">
+        <h3>
+          Interested in what you’ve seen? Are you looking to bring me onto your
+          team? Want to reach out to chat? Don’t hesitate to contact me by
+          completing the form below! I look forward to speaking with you about
+          how we can use technology to strengthen our communities.
+        </h3>
+      </div>
+
+      <form id="contact-submit">
+        <label for="name"> Name </label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="First & Last Name"
+          required
+          autocomplete="off"
+        />
+        <label for="email">Your Email </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          required
+          autocomplete="off"
+        />
+        <label for="message"> Message </label>
+        <input
+          type="text"
+          id="message"
+          name="message"
+          placeholder="Enter your inquiry here!"
+          required
+          autocomplete="off"
+        />
+        <button class="submitBtn" type="submit" id="submit">Submit!</button>
+      </form>
+    </section>
+
+    <section class="footer">
+      <section id="copyright">
+        <h6 id="copyright" class="h6">
+          Copyright &copy; <time datetime=" 2025 "> 2025 [Jk, none yet]</time>
+        </h6>
+      </section>
+
+      <p id="github">
+        <!-- alt="Github logo pulled from Github's website's approved logos page: https://github.com/logos"/>  -->
+        <a href="https://github.com/lawrenzo456" target="_blank">
+          Github<img class="img-link" src=""
+        /></a>
+      </p>
+
+      <p id="linkedIn">
+        <a href="https://www.linkedin.com/in/lawrenzo-lue" target="_blank"
+          >LinkedIn <img class="img-link" src=""
+        /></a>
+      </p>
+
+      <p id="contact-link">
+        <a href="#contact-subject" target="_blank"
+          >Contact Me <img class="img-link" src="" />
+        </a>
+      </p>
+      <!-- footer -->
+    </section>
+  </body>
 </html>
 
 <!-- 
